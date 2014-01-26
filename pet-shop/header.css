@@ -1,0 +1,49 @@
+header {
+	width:960px;
+	height:150px;
+	background: #000;
+	margin:0 auto;
+	border-right:5px solid #AD729D;
+	border-left:5px solid #AD729D;
+}
+
+#logo {
+	position:relative;
+	z-index:10;
+	left:20px;
+	top:10px;
+}
+
+#slogan{
+	width:450px;
+	color:#FF8000;
+	font-style:italic;
+	font-size:24px;
+	position:relative;
+	bottom:95px;
+	left:268px;
+	z-index:10;
+	
+
+}
+	
+#hairDryer{
+	height:100px;
+	width:600px;
+	position: relative;
+	left:230px;
+	bottom:145px;
+}
+
+#garfield{
+	position:relative;
+	left:155px;
+	bottom:150px;
+}
+
+#registered{
+	font-size:12px;
+	vertical-align:text-top;
+	font-style:normal;	
+}
+

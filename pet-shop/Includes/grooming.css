@@ -1,0 +1,252 @@
+
+#groomingMsg{
+	width:380px;
+	left:290px;	
+}
+
+#borderImg4{
+	width:585px;
+	height:470px;
+	background: #CC95CB url(paw.jpg);
+}
+
+#cartoonGroom{
+	width:640px;
+	position:relative;
+	left:110px;
+}
+
+#serviceHead{
+	width:270px;
+	position:relative;
+	top:30px;
+	left:295px;
+}
+
+#groomDec{
+	height:0px;
+	width:250px;
+	border:2px solid #FD6500;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	position:relative;
+	top:30px;
+	left:305px;
+}
+
+#groomList{
+	position:relative;
+	top:70px;
+	
+}
+
+#groomList>li{
+	margin-bottom:30px;
+	font-style:italic;
+}
+
+#groomList ul{
+	margin-left:30px;
+	font-style:normal;
+}
+
+#groomList ul li{
+	margin-bottom:8px;
+}
+
+#priceHead, .price{
+	color:#090;	
+}
+
+.price{
+	font-size:24px;
+}
+
+#appImg{
+	width:318px;	
+	position:relative;
+	left:262px;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+#groomTable{
+	width:400px;
+	position:relative;
+	left:100px;
+}
+
+#groomTable tr{
+	height:30px;
+}
+
+.Error {/*For form errors*/
+	color:red; font-size:smaller;
+}
+
+#gForm{
+	width:860px;
+	height:450px;
+}
+
+#gForm h2{
+	font-size:24px;
+	margin-bottom:-5px;
+}
+
+#happyClients{
+	position:relative;
+	top:15px;
+	left:271px;
+}
+
+.scrollG{
+	width:80px;
+	height:100px;
+	position:relative;	
+}
+
+#sg1{
+	left:750px;
+}
+
+#sg2{
+	margin-top:-75px;
+}
+
+.pet{
+	position:relative;
+	top:40px;
+	left:40px;
+}
+
+#dog4{
+	top:42px;	
+}
+
+#cat1{
+	width:220px;
+	margin-top:-3px;
+	margin-left:-3px;	
+}
+
+#cat2{
+	width:170px;
+	height:220px;
+	left:40px;
+	
+}
+#cat3{
+	height:260px;
+	width:300px;
+	
+}
+
+#cat4{
+	height:307px;
+	width:380px;
+}
+.petBorder, .shopBorder{
+	background: #CC95CB url(paw.jpg);
+	position:relative;
+	top:40px;
+}
+
+#petBorder1{
+	height:385px;
+	width:465px;
+	top:40px;
+	left:20px;
+}
+
+#petBorder2{
+	height:380px;
+	width:340px;
+	left:500px;
+	margin-top:-300px;
+}
+
+#petBorder3{
+	height:380px;
+	width:330px;
+	left:400px;
+	margin-bottom:40px;
+	margin-top:40px;
+}
+
+#petBorder4{
+	height:300px;
+	width:330px;
+	margin-top:-500px;
+	margin-bottom:200px;
+}
+
+#petBorder5{
+	height:304px;
+	width:295px;
+	margin-top:-150px;
+	margin-bottom:50px;
+	left:20px;
+}
+
+#petBorder6{
+	height:300px;
+	width:250px;
+	margin-top:-200px;
+	left:475px;
+}
+
+#petBorder7{
+	height:340px;
+	width:377px;
+	left:5px;
+	margin-bottom:20px;
+	margin-top:-75px;
+}
+
+#petBorder8{
+	height:385px;
+	width:460px;
+	left:390px;
+	margin-top:-225px;
+}
+
+#facHead{
+	position:relative;
+	top:100px;
+	width:270px;
+	left:195px;
+}
+
+.shopBorder{
+	width:760px;
+	height:605px;
+	margin-bottom:70px;
+	left:50px;	
+}
+
+.shop{
+	width:680px;
+	height:510px;
+	position:relative;
+	left:37px;
+	top:44px;	
+}
+
+#ppzBorder1{
+	margin-top:70px;
+}
+
+.insideSalon{
+	font-size:20px;
+	font-style:italic;
+	position:relative;
+	top:40px;
+}
+ 
+#inside1{
+	top:110px;	 
+}
+
+

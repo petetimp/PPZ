@@ -18,4 +18,8 @@
         </fieldset>
     </form>
     <div id="mailMsg"></div>
+    <div id="animationContainer">
+		<div id="loadingtext"></div>
+        <img id="envelope" src="Includes/email-envelope.gif"'/>
+	</div>
 </div>

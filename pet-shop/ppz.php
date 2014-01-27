@@ -89,7 +89,7 @@
                    <?php
 						}
 						
-						if (@$page=='hours'){
+						if (@$page=='hours' || @$page=='Internships'){
 					?>
                     		<script>document.getElementById("bb2").style.right="45px";</script>
 					<?php

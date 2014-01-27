@@ -34,7 +34,30 @@ function checkTextArea(textArea, max){
 	}
 }
 
+function subtractingDots(){
+	var loadingText= document.getElementById("loadingtext");
+		loadingText.innerHTML = "Sending Your Message......";
+	var subtractPeriod=setInterval(function(){
+	var	length=loadingText.innerHTML.length;	
+		loadingText.innerHTML = loadingText.innerHTML.substring(0,length-1);
+			if (loadingText.innerHTML.indexOf(".") == -1){
+					clearInterval(subtractPeriod);
+					subtractingDots(loadingText);
+			}
+		},100);
+}
+
 function processForm(form, FirstName, LastName, Email){
+	
+	form.style.display = "none";
+	container = document.getElementById("animationContainer");
+	container.style.display = "block";	
+	envelope=document.getElementById("envelope");
+	envelope.style.display="block";
+	
+	
+	
+	
 	var Message=document.getElementById("Message").value;
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("post","Includes/processForm.php",true);
@@ -44,13 +67,15 @@ function processForm(form, FirstName, LastName, Email){
 		}
 	}
 	
+	subtractingDots();
+	
 	xmlhttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded;");
 	xmlhttp.send("FirstName=" + FirstName  + "&LastName=" + LastName + "&Email=" + Email + "&Message=" + Message);	
 	 
 	function contactResults() {
 		var mailMsg=document.getElementById("mailMsg");
 			mailMsg.innerHTML=xmlhttp.responseText;
-			form.style.display = "none";
+			container.style.display = "none";
 	}	
 }
 

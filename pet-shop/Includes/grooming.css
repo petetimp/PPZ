@@ -121,6 +121,13 @@
 	left:40px;
 }
 
+#dog2{	
+	width:257px;
+	top:46px;
+	right:2px;	
+	
+}
+
 #dog4{
 	top:42px;	
 }
@@ -161,14 +168,14 @@
 }
 
 #petBorder2{
-	height:380px;
+	height:385px;
 	width:340px;
 	left:500px;
 	margin-top:-300px;
 }
 
 #petBorder3{
-	height:380px;
+	height:385px;
 	width:330px;
 	left:400px;
 	margin-bottom:40px;

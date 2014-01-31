@@ -1,0 +1,53 @@
+#welcomeMessage{
+	left:120px;
+}
+
+#garOd{
+	position:relative;
+	left:525px;
+	bottom:100px;
+	
+}
+
+#scissors{
+	height:60px;
+	width:90px;
+	position:relative;
+	bottom:150px;
+	left:450px;
+	z-index:5;
+}
+
+.startOfText{
+	font-size:48px;	
+}
+
+#specialDeal{
+	border: 5px dashed purple;
+	width:60%;
+	position:relative;
+	z-index:10;
+}
+
+#specialText{
+	font-variant:small-caps;
+}
+#scrollH{
+	width:80px;
+	height:100px;
+	position:relative;
+	left:765px;
+	bottom:85px;
+	z-index:5;
+}
+
+.tooMuchSpace{
+	position:relative;
+	z-index:10;
+	margin-top:-80px;
+}
+
+.tooMuchSpace2{
+	position:relative;
+	bottom:62px;
+}

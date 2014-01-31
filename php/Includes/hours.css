@@ -1,0 +1,21 @@
+#hoursMsg{
+	width:218px;
+	left:370px;
+}
+
+#oSign{
+	width:360px;
+	height:250px;
+	position:relative;
+	left:250px;
+	top:20px;
+}
+
+#hourList{
+	text-align:center;
+}
+
+#hourList li{
+	margin-left:10px;
+	line-height:135%;
+}

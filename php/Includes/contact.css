@@ -1,0 +1,85 @@
+#contactMessage{
+	width:440px;
+	position:relative;
+	left:255px;
+	margin-top:20px;
+	top:30px;
+}
+
+#contactForm{
+	width:300px;
+	position:relative;
+	left:135px;
+}
+
+#contactForm tr{
+	height:38px;
+}
+
+#contactButton{
+	margin-top:20px;	
+}
+
+#contactForm textarea{
+	margin-top:-10px;
+}
+
+#contactForm legend{
+	margin-top:-10px;
+	margin-bottom:15px;
+	margin-left:-125px;
+}
+
+#Email{
+	width:250px;
+}
+
+#loadingtext{
+	font-size: x-large;
+	position:relative;
+	width:500px;
+	height:40px;
+	left:265px;
+	top:30px;
+}
+
+#envelope{
+	display:none;
+	height:225px;
+	width:300px;
+	position:relative;
+	left:255px;
+	top:85px;
+}
+
+#animationContainer {
+		position:relative;
+		width:860px;
+		height:400px;
+}
+#mailMsg{
+	width:860px;
+	text-align:center;
+	position:relative;
+}
+
+#mailMsg h1{
+	font-size:larger;
+}
+
+#garfSuccess, #garfFailed{
+	height:250px;
+	position:relative;
+}
+
+#garfSuccess{
+	width:150px;
+	right:25px;
+}
+
+#garfFailed{
+	width:200px;
+	right:30px;
+}
+
+
